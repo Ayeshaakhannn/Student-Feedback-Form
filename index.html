@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Feedback Form</title>
+</head>
+<body>
+    <h1><b>Student Feedback Form</b></h1>
+    <p><i>Please help us improve our courses by filling out this form:</i></p>
+    <style>
+        h1 {
+            color: darkblue
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+    <form action="../html/">
+        <style>
+            h2 {
+                font-size: 16px;
+            }
+            * {
+                background-color: darkturquoise
+            }
+        </style>
+        <h2>Enter your full name:</h2>
+<label for="name"> First Name
+        <input id="name" type="text" placeholder="type here">
+<label for="last name"> Last Name</label>
+        <input id="last name" type="text" placeholder="type here">
+<br>
+<h3><b>Enter Teacher/Instructor name: </b></h3>
+<label for="name">Teacher/Instructor name</label>
+        <input id="t/i" type="text" placeholder="type here">
+<br>
+<h4>Enter your e-mail or phone number:</h4>
+<label for="email">email/phone number</label>
+        <input id="mail/phone" type="text" placeholder="type here">
+        <br>
+<h5>Select your gender: </h5>
+<style>
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+</style>
+<input type="radio" id="female" name="gender">
+<label for="female">female</label>
+<br>
+<input type="radio" id="male" name="gender">
+<label for="male">male</label>
+<br>
+<input type="radio" id="other" name="gender">
+<label for="other">other</label>
+<br>
+<br>
+<label for="course">Course Name: </label>
+          <select name="course" id="course">
+              <option value="w1">Web Development 1</option>
+              <option value="w2">Web Development 2</option>
+              <option value="w3">Web Development 3</option>
+              <option value="pyt">Python</option>
+              <option value="js">Js Node</option>
+          </select>
+<br>
+<br>
+<label for="level">Level of knowledge invested in course:</label>
+          <select name="level" id="level">
+              <option value="B">best</option>
+              <option value="V">very good</option>
+              <option value="G">good</option>
+          </select>
+<br>
+<br>       
+<label for="effort">level of effort invested in course: </label>
+           <select name="effort" id="effort"> 
+               <option value="B">best</option>
+               <option value="V">very good</option>
+               <option value="G">good</option>
+           </select>      
+<br>
+<br>
+<label for="rec">Would you recommend this course to other students?</label>  
+           <select name="rec" id="rec">
+               <option value="y">Yes</option>
+               <option value="n">No</option>
+           </select>
+<br>
+<br>
+           <button type="submit">submit</button>
+           <button type="reset">reset</button>
+    </form>
+</body>
+</html>
